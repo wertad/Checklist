@@ -18,5 +18,5 @@ Miután az alapfunkciókat a program már ellátta, később kerültek bele extr
 - hangvezérelés, megadott parancsszavakra lehetett indítani pl. az első tíz tételt, vagy csak amik nincsenek készen stb. (igazából soha nem használtuk, pusztán szakmai kíváncsiság és fejlődés miatt írtam meg, de működött)
 - a hangutasítást követően a program különböző soundpack-ekkel jelezte ha vette az utasítást, pl. a warcraft peonjai hangján "work-work", "zug-zug" stb. :-)
 - igény merült fel arra is, hogy megadni a programnak, hogy több monitoros rendszeben melyik kijelzőre pakolja az rdp ablakokat alapértelmezetten, ez a funkció végül nem nyert végleges formát, a win10 ablakkezelési hiányosságai miatt
-- 
+
 ![mukodes_kozben3](https://user-images.githubusercontent.com/17532282/194525133-0a33df0a-9058-41dd-b599-12a5d5abe95e.png)
