@@ -5,7 +5,7 @@ Munkahelyi segédprogramként funkcionált, az adott munkakörnyezetre (szervere
 A feladat az volt, hogy a cég számos kritikusan fontos szervereit saját szemmel is ellenőrizzük, hogy biztosan minden megfelelően működik rajta. Így a windows szerverekre rdp-n keresztül, a linuxokra ssh-n, a webes eléréssel rendelkező eszközökhöz pedig egy böngészőn keresztül fértünk hozzá. Majd minden kiszolgálón/eszközön más és más teszteket futtattunk a feladatkörének megfelelően.
 Az ellenőrzést követően képernyőmentésekkel dokumentáltuk és mentettük a tapasztaltakat.
 
-Egy teljesen kézzel végzett ellenőrzési folyamat kb. 1,5-2 órát vett igénybe, ezzel a segédprogrammal kb. 20 percre sikerült ezt az időt redukálni.
+Egy teljesen kézzel végzett ellenőrzési folyamat kb. 1,5-2 órát vett igénybe, ezzel a segédprogrammal viszont kb. 20 percre sikerült ezt az időt redukálni.
 
 Funkciói:
 - képes volt egy meghatározott mappa- és azokon belül fájlstruktúra létrehozására egy hálózati munkakönyvtárba
