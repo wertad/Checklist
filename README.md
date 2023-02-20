@@ -1,18 +1,22 @@
 # Checklist++
 
-Munkahelyi segédprogramként funkcionált, az adott munkakörnyezetre (szerverekre) tervezve.
+It functioned as a utility, designed for the work environment (servers) of the given company.
 
-A feladat az volt, hogy a cég számos kritikusan fontos szervereit saját szemmel is ellenőrizzük, hogy biztosan minden megfelelően működik rajta. Így a windows szerverekre rdp-n keresztül, a linuxokra ssh-n, a webes eléréssel rendelkező eszközökhöz pedig egy böngészőn keresztül fértünk hozzá. Majd minden kiszolgálón/eszközön más és más teszteket futtattunk a feladatkörének megfelelően.
-Az ellenőrzést követően képernyőmentésekkel dokumentáltuk és mentettük a tapasztaltakat.
+The task was to check the company's many critically important servers with our own eyes to make sure that everything was working correctly. Thus, we accessed windows servers via rdp, linux via ssh, and devices with web access via a browser. We then run different tests on each server/device according to its scope of work. After the inspection, we documented and saved what we experienced with screenshots.
 
-Egy teljesen kézzel végzett ellenőrzési folyamat kb. 1,5-2 órát vett igénybe, ezzel a segédprogrammal viszont kb. 20 percre sikerült ezt az időt redukálni.
+A completely manual verification process took about 1.5-2 hours, but with this utility we managed to reduce that time to about 20 minutes.
 
-Funkciói:
-- képes volt egy meghatározott mappa- és azokon belül fájlstruktúra létrehozására egy hálózati munkakönyvtárba
-- képes volt egy megadott mappában tárolt .rdp fájlokkal tömeges távoli asztali kapcsolatot kezdeményezni
-- képes volt kikeresni a registryből, hogy az adott kliens gépen telepítve van-e a paint.net külső program (mellyel a prtscr-elt képeket mentettük le) és ha igen, akkor meghatározni az indítási útvonalát és elindítani a Checklist++ programmal együtt a paint.net-et is. Arra is figyelt, ha már meg van nyitva a paint.net akkor egy figyelmeztető ablakban jelezze a felhasználónak, hogy mentsen el benne mindent, és ezután bezárni az előző paint.net process-t és indítani egy újat (erre szükség volt többek között a megfelelő vászonméret miatt)
-- képes volt figyelni és jelölni (a listában kizöldezve) azokat a szervereket amikkel már végeztünk az ellenőrzés során. Ezt a Checklist++ program indításakor a hálózatra készített mappa és fájlstruktúra metaadataiból látta, ha az adott feladathoz tartozó fájl már nem 0KB akkor kész.
-- a programot egyidejűleg ketten használtuk, és mivel a program hálózatról dolgozott, így láthattuk azt is hogy a másik hol tart, mely szervereket ellenőrizte már, mivel mindkettőnknél zöldültek a megfelelő tételek a listában
+Functions:
+
+- it was able to create a specific folder and file structure within them into a network working directory
+
+- it was able to initiate a bulk remote desktop connection with .rdp files stored in a specified folder
+
+- it was able to find out from the registry whether the external program paint.net is installed on the given client machine (with which the prtscr images were saved) and if so, to determine its startup path and start paint.net together with the Checklist++ program too. It also paid attention to the fact that if paint.net is already open, a warning window should inform the user to save everything in it, and then to close the previous paint.net process and start a new one (this was necessary, among other things, with the appropriate due to canvas size).
+
+- it was able to monitor and mark (green in the list) those servers that we have already checked. When starting the Checklist++ program, the program detected this from the metadata of the folder and file structure created on the network, if the file belonging to the given task is no longer 0KB, then it is done.
+
+- two of us used the program at the same time, and since the program worked from a network, we could also see where the other was, which servers he had already checked, since the corresponding items in the list were green for both of us
 
 ![mukodes_kozben2](https://user-images.githubusercontent.com/17532282/194511522-eeab4f5d-ef6a-4d4a-8ca5-5db36ea5acb5.png)
 
