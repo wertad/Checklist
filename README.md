@@ -22,10 +22,10 @@ Functions:
 
 After the basic functions were already provided by the program, extra functions were added later:
 
--voice control, it was possible to start, for example, the first ten items, or only those that are not ready, etc. (we never actually used it, I wrote it purely out of professional curiosity and development, but it worked)
+- voice control, it was possible to start, for example, the first ten items, or only those that are not ready, etc. (we never actually used it, I wrote it purely out of professional curiosity and development, but it worked)
 
--for the voice command, the program indicated with different soundpacks if it accepted the command, e.g. in the voice of warcraft peons "work-work", "zug-zug" etc. :-)
+- for the voice command, the program indicated with different soundpacks if it accepted the command, e.g. in the voice of warcraft peons "work-work", "zug-zug" etc. :-)
 
--later, there was also a need to specify to the program on which display the rdp windows are loaded by default in a multi-monitor system, this function did not take a final form in the end, due to the shortcomings of win10's window management
+- later, there was also a need to specify to the program on which display the rdp windows are loaded by default in a multi-monitor system, this function did not take a final form in the end, due to the shortcomings of win10's window management
 
 ![mukodes_kozben3](https://user-images.githubusercontent.com/17532282/194525133-0a33df0a-9058-41dd-b599-12a5d5abe95e.png)
